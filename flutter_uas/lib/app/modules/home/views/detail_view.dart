@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:uas/app/routes/app_pages.dart';
+import 'package:flutter_uas/app/routes/app_pages.dart';
 
 import '../controllers/home_controller.dart';
 

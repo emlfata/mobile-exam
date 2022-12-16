@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:uas/app/data/member.dart';
-import 'package:uas/screens/dashboardScreen.dart';
-import 'package:uas/app/routes/app_pages.dart';
+import 'package:flutter_uas/app/data/member.dart';
+import 'package:flutter_uas/screens/dashboardScreen.dart';
+import 'package:flutter_uas/app/routes/app_pages.dart';
 import 'package:get/get.dart';
 
 class loginpage extends StatefulWidget {

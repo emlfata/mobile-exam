@@ -1,11 +1,11 @@
 import 'package:get/get.dart';
-import 'package:uas/app/data/models/hospital_model.dart';
+import 'package:flutter_uas/app/data/models/hospital_model.dart';
 
-import 'package:uas/app/modules/home/bindings/home_binding.dart';
-import 'package:uas/app/modules/home/views/home_view.dart';
-import 'package:uas/app/modules/hospital/bindings/hospital_binding.dart';
-import 'package:uas/app/modules/hospital/controllers/hospital_controller.dart';
-import 'package:uas/app/modules/hospital/views/hospital_view.dart';
+import 'package:flutter_uas/app/modules/home/bindings/home_binding.dart';
+import 'package:flutter_uas/app/modules/home/views/home_view.dart';
+import 'package:flutter_uas/app/modules/hospital/bindings/hospital_binding.dart';
+import 'package:flutter_uas/app/modules/hospital/controllers/hospital_controller.dart';
+import 'package:flutter_uas/app/modules/hospital/views/hospital_view.dart';
 // import 'package:uas/app/modules/login/bindings/login_binding.dart';
 // import 'package:uas/app/modules/home/views/login_view.dart';
 

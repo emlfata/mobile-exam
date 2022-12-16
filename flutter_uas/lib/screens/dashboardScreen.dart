@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
-import 'package:uas/app/routes/app_pages.dart';
-import 'package:uas/app/data/member.dart';
-import 'package:uas/screens/login.dart';
+import 'package:flutter_uas/app/routes/app_pages.dart';
+import 'package:flutter_uas/app/data/member.dart';
+import 'package:flutter_uas/screens/login.dart';
 
 class DashboardScreen extends StatefulWidget {
   final int indexdata;
