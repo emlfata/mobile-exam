@@ -1,22 +1,18 @@
+import 'package:flutter_uas/view/splashScreen.dart';
 import 'package:flutter/material.dart';
 
-import 'package:get/get.dart';
-
-import 'app/routes/app_pages.dart';
-import 'package:flutter_uas/screens/splashScreen.dart';
-
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        primaryColor: Colors.green,
-      ),
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(primarySwatch: Colors.green),
       title: 'Covidly.',
       home: SplashScreen(),
     );

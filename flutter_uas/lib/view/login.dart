@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_uas/app/data/member.dart';
-import 'package:flutter_uas/screens/dashboardScreen.dart';
-import 'package:flutter_uas/app/routes/app_pages.dart';
-import 'package:get/get.dart';
+import 'package:flutter_uas/member.dart';
+import 'package:flutter_uas/view/provinsi.dart';
 
 class loginpage extends StatefulWidget {
   const loginpage({Key? key}) : super(key: key);
@@ -43,7 +41,6 @@ class _loginpageState extends State<loginpage> {
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 40,
-                  fontFamily: 'Mukta',
                 ),
               ),
               SizedBox(
@@ -139,7 +136,7 @@ class _loginpageState extends State<loginpage> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => DashboardScreen(indexdata),
+                        builder: (context) => ProvinsiScreen(indexdata),
                       ),
                     );
                     print("Hello Nilai index data adalah $indexdata");
